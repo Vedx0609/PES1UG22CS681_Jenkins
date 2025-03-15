@@ -14,7 +14,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './meow'
+                    sh './woof_this_is_wrong' // The executable is called meow but we are saying woof
                 }
             }
         }
