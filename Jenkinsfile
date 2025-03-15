@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     build 'PES1UG22CS681-1'
-                    sh 'g++ -o meow PES1UG22CS681.cpp'
+                    sh 'g++ -o meow main/PES1UG22CS681.cpp'
                 }
             }
         }
